@@ -29,8 +29,8 @@ pipeline {
         }
         stage('print logs') {
             steps {
-                echo 'Trabajo ${env.JOB_NAME}'
-                echo 'Ejecución número ${env.BUILD_NUMBER}'
+                echo "Trabajo ${env.JOB_NAME}"
+                echo "Ejecución número ${env.BUILD_NUMBER}"
             }
         }
     }
